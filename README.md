@@ -1,5 +1,5 @@
 # Bigithub
-Voici la version améliorée et bien structurée de ton **README.md** pour GitHub :  
+Voici la **version finale** de ton **README.md** avec une section "Désactivation du processus" bien intégrée :  
 
 ---
 
@@ -22,6 +22,27 @@ Voici la version améliorée et bien structurée de ton **README.md** pour GitHu
 
 ---
 
+## ⚠️ **Avertissement**  
+📌 **Chaque fois que vous uploadez un fichier `.zip`, il sera automatiquement décompressé dans votre dépôt.**  
+Assurez-vous que l’archive respecte **l’architecture actuelle** de votre projet pour éviter toute modification non souhaitée.  
+
+---
+
+## ❌ **Désactiver le processus automatique**  
+Si vous souhaitez **désactiver** l’extraction automatique des fichiers ZIP, **commentez** ces lignes dans le fichier `unzip.yml` :  
+
+```yaml
+# name: Extract ZIP Files
+
+# on:
+#   push:
+#     paths:
+#       - "*.zip"
+```
+Cela empêchera GitHub Actions de déclencher le processus lors de l’upload d’un fichier ZIP.  
+
+---
+
 ✅ **Avantages :**  
 - Contourne les restrictions de taille des fichiers sur GitHub.  
 - Facile à mettre en place et entièrement automatisé.  
@@ -31,4 +52,4 @@ Voici la version améliorée et bien structurée de ton **README.md** pour GitHu
 
 ---
 
-😊
+**💡 Cette version est optimisée et claire pour tout utilisateur.** 🚀 Dis-moi si tu veux encore des ajustements ! 😊
