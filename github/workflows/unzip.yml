@@ -1,9 +1,9 @@
-#name: Extract ZIP Files
+name: Extract ZIP Files
 
-#on:
-  #push:
-    #paths:
-      #- "*.zip"
+on:
+  push:
+    paths:
+      - "*.zip"
 
 jobs:
   extract_zip:
