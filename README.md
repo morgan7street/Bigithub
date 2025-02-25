@@ -1,13 +1,15 @@
 # Bigithub
-Pour uploader dans son dépôt GitHub sans restriction de taille de fichiers.
-
-Préparer:
-1- Créer un dossier .github/workflows (à la racine de votre dépôt github), et à l'intérieur du répertoire workflows créer un fichier unzip.yml, collez-y le contenu de celui fourni.
-
-Uploader:
-2- mettre le contenu de votre dépot à uploader dans un dossier compresser nommer simplement .zip. 
-
-Conclusion:
-Le processus complet va prendre quelques secondes, le dossier compresser sera automatique décompresser recréant exactement l'architecture de ce qu'il contenait à la racine du projet.
+Uploader un dépôt GitHub sans restriction de taille des fichiers
+Préparation
+Créer un fichier de workflow :
+À la racine de votre dépôt GitHub, créez un dossier .github/workflows.
+À l’intérieur, ajoutez un fichier nommé unzip.yml et collez-y le contenu fourni.
+Upload des fichiers
+Préparer les fichiers à envoyer :
+Placez tous les fichiers à uploader dans un fichier ZIP nommé simplement .zip.
+Exécution et résultat
+Déroulement du processus :
+Une fois le fichier ZIP uploadé, le processus prend quelques secondes.
+Il est automatiquement décompressé, recréant exactement l’architecture des fichiers à la racine du projet.
 
 
