@@ -1,8 +1,8 @@
-# Bigithub
+# **Bigithub**
 
 ---
 
-# **Uploader un dépôt sur GitHub sans restriction de taille**  
+# Uploader un dépôt sur GitHub sans restriction de taille  
 
 ## 🚀 **Préparation**  
 1. **Créer un workflow GitHub Actions**  
