@@ -2,7 +2,7 @@
 
 ---
 
-## Uploader un dépôt sur GitHub sans restriction de taille  
+## **Uploader un dépôt sur GitHub sans restriction de taille**  
 
 ## 🚀 **Préparation**  
 1. **Créer un workflow GitHub Actions**  
@@ -21,9 +21,20 @@
 
 ---
 
-## ⚠️ **Avertissement**  
-📌 **Chaque fois que vous uploadez un fichier `.zip`, il sera automatiquement décompressé dans votre dépôt.**  
-Assurez-vous que l’archive respecte **l’architecture actuelle** de votre projet pour éviter toute modification non souhaitée.  
+## ⚠️ **Avertissements**  
+
+### 📌 **1. Attention à l’upload automatique**  
+- **Chaque fois que vous uploadez un fichier `.zip`, il sera automatiquement décompressé dans votre dépôt.**  
+- **Vérifiez que votre archive respecte l’architecture actuelle** du projet pour éviter toute modification non souhaitée.  
+
+### 🔑 **2. Vérifier les permissions des workflows**  
+Pour que le processus fonctionne correctement, assurez-vous que **les permissions GitHub Actions** sont bien configurées en **lecture et écriture** :  
+1. **Accédez aux paramètres de votre dépôt** (`Settings`).  
+2. **Dans le menu de gauche, cliquez sur "Actions" → "General"**.  
+3. **Faites défiler jusqu’à la section "Workflow permissions"**.  
+4. **Cochez "Read and Write permissions"** si ce n'est pas déjà fait.  
+
+Si cette option n'est pas activée, GitHub ne pourra pas extraire et modifier les fichiers dans votre dépôt.  
 
 ---
 
