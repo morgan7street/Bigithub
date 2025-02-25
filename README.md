@@ -1,5 +1,4 @@
 # Bigithub
-Voici la **version finale** de ton **README.md** avec une section "Désactivation du processus" bien intégrée :  
 
 ---
 
@@ -52,4 +51,4 @@ Cela empêchera GitHub Actions de déclencher le processus lors de l’upload d�
 
 ---
 
-**💡 Cette version est optimisée et claire pour tout utilisateur.** 🚀 Dis-moi si tu veux encore des ajustements ! 😊
+😊
