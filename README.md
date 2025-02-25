@@ -12,7 +12,7 @@
 ## 📂 **Upload des fichiers**  
 2. **Préparer l’archive à envoyer**  
    - Placez tous les fichiers à uploader dans une **archive ZIP**.  
-   - **Important** : L’archive doit être nommée **`.zip`**.  
+   - **Important** : L’archive doit être nommée **`depot.zip`**.  
 
 ## ⚙️ **Déroulement du processus**  
 3. **Automatisation de l’extraction**  
